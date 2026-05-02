@@ -75,13 +75,18 @@ export async function POST(request: NextRequest) {
                'unknown';
     const userAgent = request.headers.get('user-agent') || 'unknown';
 
-    // Log the selection
-    await appendBuyerTypeLog({
-      buyerType,
-      timestamp: new Date().toISOString(),
-      ip,
-      userAgent,
-    });
+    // Log the selection (best-effort, don't fail if logging fails in serverless env)
+    try {
+      await appendBuyerTypeLog({
+        buyerType,
+        timestamp: new Date().toISOString(),
+        ip,
+        userAgent,
+      });
+    } catch (logError) {
+      console.warn('Failed to log buyer type selection:', logError);
+      // Continue - logging failure should not block the user
+    }
 
     // Set the cookie
     cookies().set('buyer_type', buyerType, {
