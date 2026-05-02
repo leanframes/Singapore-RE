@@ -1,0 +1,155 @@
+{
+  "hero": {
+    "classification": "Private Intelligence Briefing",
+    "title": "Singapore Sovereignty Dashboard"
+  },
+  "scorecard": {
+    "title": "Capital Protection Scorecard",
+    "subtitle": "Comparative jurisdiction analysis for wealth preservation",
+    "comparisons": [
+      {
+        "metric": "Capital Gains Tax",
+        "singapore": "0%",
+        "dubai": "0%",
+        "switzerland": "0%*",
+        "uk": "28%"
+      },
+      {
+        "metric": "Estate/Inheritance Duty",
+        "singapore": "0%",
+        "dubai": "0%",
+        "switzerland": "0-50%",
+        "uk": "40%"
+      },
+      {
+        "metric": "Dividend Tax",
+        "singapore": "0%",
+        "dubai": "0%",
+        "switzerland": "35%",
+        "uk": "39.35%"
+      },
+      {
+        "metric": "Political Stability (EIU 2025)",
+        "singapore": "1st",
+        "dubai": "23rd",
+        "switzerland": "3rd",
+        "uk": "27th"
+      },
+      {
+        "metric": "CRS Auto-Reporting",
+        "singapore": "Limited",
+        "dubai": "Yes",
+        "switzerland": "Yes",
+        "uk": "Yes"
+      },
+      {
+        "metric": "China Extradition Treaty",
+        "singapore": "No",
+        "dubai": "No",
+        "switzerland": "No",
+        "uk": "Yes"
+      }
+    ],
+    "sources": "Sources: IRAS, EIU Political Stability Index 2025, MAS CRS Guidelines, Bilateral Treaty Database"
+  },
+  "familyOffice": {
+    "title": "Family Office Pathway",
+    "subtitle": "Singapore Section 13O/13U Tax Incentive Scheme",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Asset Acquisition",
+        "description": "Acquire this property as foundation asset, demonstrating commitment to Singapore"
+      },
+      {
+        "step": 2,
+        "title": "Establish SFO",
+        "description": "Set up Single Family Office under MAS 13O scheme with S$20M+ AUM"
+      },
+      {
+        "step": 3,
+        "title": "Employment Passes",
+        "description": "EP for principal and key family members, path to PR and citizenship"
+      },
+      {
+        "step": 4,
+        "title": "0% Tax on Gains",
+        "description": "Qualifying fund income exempt from Singapore tax under 13O/13U"
+      }
+    ],
+    "ctaButton": "Request Confidential 13O Eligibility Call"
+  },
+  "familyOS": {
+    "title": "Family Operating System",
+    "subtitle": "Comprehensive lifestyle infrastructure",
+    "health": {
+      "title": "Elite Healthcare Access",
+      "facilities": [
+        { "name": "Mount Elizabeth Novena", "distance": "8 min drive" },
+        { "name": "Gleneagles Hospital", "distance": "12 min drive" },
+        { "name": "Raffles Hospital", "distance": "15 min drive" }
+      ],
+      "note": "Private medical concierge service included with acquisition"
+    },
+    "education": {
+      "title": "Premier International Schools",
+      "schools": ["UWCSEA", "Tanglin Trust", "SAS"],
+      "annualFees": "S$50,000+ annually",
+      "description": "District 10 property ownership strengthens applications to elite international schools.",
+      "note": "Admission strategy briefing available upon request"
+    },
+    "security": {
+      "title": "Privacy & Security Profile",
+      "points": [
+        "Eligible for Gurkha Security consultation - Singapore's elite private security",
+        "D10 low-profile enclave - minimal public traffic, diplomatic neighbor protocol",
+        "No public registry of UHNI residential addresses in Singapore"
+      ]
+    },
+    "lifestyle": {
+      "title": "Exclusive Networking & Dining",
+      "clubs": [
+        { "name": "Tanglin Club", "distance": "5 min drive" },
+        { "name": "Singapore Island Country Club", "distance": "8 min drive" },
+        { "name": "Sentosa Golf Club", "distance": "20 min drive" }
+      ],
+      "michelin": "12 Michelin-starred restaurants within 10-minute drive"
+    },
+    "pets": {
+      "title": "Premium Pet Services",
+      "facilities": [
+        {
+          "name": "Beecroft Animal Hospital",
+          "features": ["24/7 surgical capability", "Specialist veterinary care", "Premium insurance cashless"]
+        }
+      ],
+      "relocation": "Certified pet relocation specialists for seamless international transfer"
+    }
+  },
+  "roi": {
+    "title": "Wealth Preservation ROI",
+    "subtitle": "Singapore Luxury Residential Price Index Performance",
+    "data": [
+      { "year": "2014", "value": 100 },
+      { "year": "2015", "value": 97 },
+      { "year": "2016", "value": 94 },
+      { "year": "2017", "value": 93 },
+      { "year": "2018", "value": 101 },
+      { "year": "2019", "value": 104 },
+      { "year": "2020", "value": 102 },
+      { "year": "2021", "value": 115 },
+      { "year": "2022", "value": 128 },
+      { "year": "2023", "value": 135 },
+      { "year": "2024", "value": 146 },
+      { "year": "2025", "value": 153 },
+      { "year": "2026", "value": 158 }
+    ],
+    "caption": "Asset appreciation + Currency stability (SGD) + Jurisdiction security = Comprehensive wealth preservation strategy",
+    "source": "Source: URA Private Residential Price Index, Knight Frank Wealth Report 2025"
+  },
+  "cta": {
+    "title": "Proceed to Private Asset Digital Twin",
+    "subtitle": "You've completed the sovereignty briefing. Continue to the full property presentation.",
+    "button": "View Property Details"
+  }
+}

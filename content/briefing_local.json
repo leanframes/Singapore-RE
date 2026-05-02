@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "classification": "Asset Intelligence Dossier",
+    "title": "Asset Provenance Dossier"
+  },
+  "titleLand": {
+    "title": "Title & Land Analysis",
+    "subtitle": "Comprehensive land title and zoning verification",
+    "details": {
+      "tenure": "Freehold",
+      "landArea": "15,000 sqft",
+      "plotRatio": 0.35,
+      "zoning": "GCB",
+      "lotNumber": "MK27-01234A",
+      "district": "District 10",
+      "gpr": 0.35,
+      "buildCoverage": "35%"
+    },
+    "encumbrances": {
+      "status": "clean",
+      "note": "Clean Title - No caveats or encumbrances"
+    },
+    "source": "Source: Singapore Land Authority (SLA)"
+  },
+  "architecture": {
+    "title": "Architectural Pedigree",
+    "subtitle": "Design provenance and construction quality assessment",
+    "architect": "SCDA Architects",
+    "yearBuilt": 2018,
+    "style": "Modern Tropical Minimalism",
+    "awards": [
+      "SIA Design Award 2019",
+      "BCA Green Mark GoldPlus"
+    ],
+    "scdaProfile": {
+      "description": "SCDA Architects, led by Chan Soo Khian, is internationally recognized for tropical modernism. The firm has completed luxury residences and resorts across Asia, earning numerous design awards.",
+      "notableProjects": [
+        "Alila Villas Uluwatu, Bali",
+        "Soori High Line, New York",
+        "The Lalu, Sun Moon Lake"
+      ]
+    }
+  },
+  "transactions": {
+    "title": "Transaction Intelligence",
+    "subtitle": "Recent District 10 Good Class Bungalow comparables",
+    "recentTransactions": [
+      {
+        "address": "Cluny Road",
+        "date": "Jan 2026",
+        "psf": 2850,
+        "landSqft": 18500,
+        "priceMillions": 52.7
+      },
+      {
+        "address": "Nassim Road",
+        "date": "Dec 2025",
+        "psf": 3120,
+        "landSqft": 15200,
+        "priceMillions": 47.4
+      },
+      {
+        "address": "Dalvey Road",
+        "date": "Nov 2025",
+        "psf": 2680,
+        "landSqft": 21000,
+        "priceMillions": 56.3
+      }
+    ],
+    "scatterData": [
+      { "landSize": 15000, "psf": 2850 },
+      { "landSize": 15200, "psf": 3120 },
+      { "landSize": 18500, "psf": 2680 },
+      { "landSize": 21000, "psf": 2450 },
+      { "landSize": 16500, "psf": 2920 },
+      { "landSize": 19000, "psf": 2580 },
+      { "landSize": 17500, "psf": 2780 },
+      { "landSize": 15000, "psf": 3050, "isSubject": true }
+    ],
+    "source": "Source: URA REALIS, Knight Frank Research Q1 2026"
+  },
+  "masterPlan": {
+    "title": "URA Master Plan 2025 Impact",
+    "subtitle": "Urban planning outlook for sustained capital preservation",
+    "assessments": [
+      {
+        "status": "positive",
+        "title": "No Zoning Changes Planned",
+        "note": "GCB zoning protection maintained through 2035"
+      },
+      {
+        "status": "positive",
+        "title": "Transport Connectivity Enhanced",
+        "note": "Thomson-East Coast Line improves Orchard-Downtown accessibility"
+      },
+      {
+        "status": "positive",
+        "title": "Heritage Corridor Adjacent",
+        "note": "Proximity to Botanic Gardens UNESCO site supports value floor"
+      }
+    ],
+    "outlook": {
+      "status": "Stable",
+      "note": "No adverse planning changes. Long-term value fundamentals intact."
+    },
+    "source": "Source: URA Master Plan 2025, LTA Land Transport Master Plan"
+  },
+  "yield": {
+    "title": "Yield Scenario Analysis",
+    "subtitle": "Potential rental income from diplomatic or corporate tenancy",
+    "estimatedRent": 85000,
+    "currency": "SGD",
+    "grossYield": 2.1,
+    "tenantProfile": ["Embassy", "MNC", "Family Office"],
+    "scenarioDescription": "Based on comparable D10 GCB rentals to diplomatic missions and multinational corporations. Assumes long-term lease (2+ years) with standard diplomatic clause provisions.",
+    "source": "Source: Knight Frank Singapore GCB Rental Index Q1 2026"
+  },
+  "cta": {
+    "title": "Proceed to Private Asset Digital Twin",
+    "subtitle": "You've completed the provenance dossier. Continue to the full property presentation.",
+    "button": "View Property Details"
+  }
+}

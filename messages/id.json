@@ -1,0 +1,375 @@
+{
+  "common": {
+    "byInvitationOnly": "Hanya Dengan Undangan",
+    "confidential": "Rahasia",
+    "accessGranted": "Akses Diberikan",
+    "submit": "Kirim",
+    "cancel": "Batal",
+    "close": "Tutup",
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "required": "Wajib",
+    "optional": "Opsional",
+    "language": "Bahasa",
+    "en": "English",
+    "zh": "中文",
+    "id": "Bahasa"
+  },
+  "gate": {
+    "title": "Akses Pribadi",
+    "subtitle": "Properti ini hanya tersedia dengan undangan",
+    "placeholder": "Masukkan kode akses",
+    "invalidCode": "Kode akses tidak valid",
+    "tooManyAttempts": "Terlalu banyak percobaan. Silakan coba lagi nanti.",
+    "enterButton": "Masuk",
+    "contactConsultant": "Hubungi konsultan Anda untuk kredensial akses"
+  },
+  "nda": {
+    "title": "Perjanjian Kerahasiaan",
+    "scrollToRead": "Silakan gulir untuk membaca seluruh perjanjian",
+    "fullName": "Nama Lengkap",
+    "email": "Alamat Email",
+    "company": "Perusahaan / Organisasi",
+    "agreeText": "Saya telah membaca dan menyetujui ketentuan kerahasiaan di atas",
+    "agreementRequired": "Anda harus menyetujui ketentuan untuk melanjutkan",
+    "submitButton": "Terima & Lanjutkan",
+    "accessConfirmed": "Akses Dikonfirmasi",
+    "confirmationMessage": "Aktivitas Anda dicatat dan semua dokumen diberi watermark untuk identifikasi Anda."
+  },
+  "property": {
+    "theBrief": "Ringkasan",
+    "theResidence": "Residensi",
+    "architecture": "Arsitektur & Desain",
+    "provenance": "Sejarah",
+    "location": "Lokasi",
+    "gallery": "Galeri",
+    "floorPlans": "Denah Lantai",
+    "documents": "Dokumen",
+    "privateViewing": "Jadwalkan Kunjungan Pribadi",
+    "acquisition": "Detail Akuisisi",
+    "appointmentOnly": "Hanya tersedia dengan janji temu",
+    "propertyType": "Tipe Properti",
+    "tenure": "Masa Sewa",
+    "landArea": "Luas Tanah",
+    "builtUp": "Luas Bangunan",
+    "bedrooms": "Kamar Tidur",
+    "bathrooms": "Kamar Mandi",
+    "designedBy": "Didesain oleh",
+    "mapUponRequest": "Peta tersedia atas permintaan",
+    "viewFullGallery": "Lihat Galeri Lengkap",
+    "accessDocuments": "Akses Dokumen",
+    "scheduleViewing": "Jadwalkan Kunjungan"
+  },
+  "propertyContent": {
+    "residenceDescription": "Sebuah mahakarya arsitektur tropis modern, Bungalow Kelas Baik ini mewakili puncak kemewahan hunian di Singapura. Dirancang dengan cermat oleh SCDA Architects, residensi ini memadukan kehidupan dalam dan luar ruangan secara mulus di tiga lantai ruang yang dirancang dengan penuh pertimbangan.",
+    "architectureDescription": "Visi arsitektur terinspirasi dari vernakular tropis tradisional sambil merangkul minimalisme kontemporer. Kaca dari lantai hingga langit-langit membingkai pemandangan taman yang dikurasi, sementara skylight yang ditempatkan dengan cermat memandikan interior dengan cahaya alami sepanjang hari.",
+    "provenanceDescription": "Nassim Hill telah menjadi alamat pilihan keluarga terkemuka dan kediaman diplomatik sejak era kolonial Singapura. Situs khusus ini telah dimiliki oleh satu keluarga selama tiga generasi sebelum penawaran langka ini.",
+    "feature1": "Lift pribadi dan parkir untuk 4 kendaraan",
+    "feature2": "Kolam renang infinity dengan pemandangan kota",
+    "feature3": "Ruang penyimpanan dan pencicipan anggur",
+    "feature4": "Sistem otomatisasi rumah",
+    "feature5": "Taman tropis yang ditata",
+    "feature6": "Kamar staf"
+  },
+  "documents": {
+    "title": "Dokumen Rahasia",
+    "subtitle": "Semua dokumen diberi watermark dengan identitas Anda",
+    "download": "Lihat Dokumen",
+    "floorPlan": "Denah Lantai",
+    "brochure": "Brosur Properti",
+    "titleDeed": "Informasi Sertifikat",
+    "unauthorized": "Anda harus menandatangani perjanjian kerahasiaan untuk mengakses dokumen",
+    "securityNotice": "Pemberitahuan Keamanan",
+    "securityMessage": "Semua dokumen diberi watermark dengan identitas dan timestamp akses Anda. Unduhan dicatat untuk tujuan keamanan. Distribusi tanpa izin dilarang berdasarkan perjanjian kerahasiaan.",
+    "pdfDocument": "Dokumen PDF"
+  },
+  "viewing": {
+    "title": "Jadwalkan Kunjungan Pribadi",
+    "subtitle": "Jadwalkan janji eksklusif untuk mengalami residensi ini",
+    "selectTime": "Pilih waktu yang Anda inginkan",
+    "confirmationTitle": "Kunjungan Dijadwalkan",
+    "confirmationMessage": "Asisten pribadi {consultant} akan menghubungi Anda dalam 24 jam untuk mengkonfirmasi janji kunjungan pribadi Anda.",
+    "slotReserved": "Slot kunjungan Anda telah dipesan",
+    "preferDirect": "Lebih suka mengatur langsung?"
+  },
+  "gallery": {
+    "all": "Semua",
+    "exterior": "Eksterior",
+    "interior": "Interior",
+    "amenity": "Fasilitas",
+    "view": "Pemandangan"
+  },
+  "admin": {
+    "title": "Dasbor Konsultan",
+    "login": "Akses Administrator",
+    "loginPlaceholder": "Masukkan kode admin",
+    "invalidCode": "Kode administrator tidak valid",
+    "analytics": "Ringkasan Analitik",
+    "uniqueVisitors": "Pengunjung Unik",
+    "timeOnSite": "Rata-rata Waktu di Situs",
+    "pagesViewed": "Halaman Dilihat",
+    "documentsDownloaded": "Dokumen Diunduh",
+    "repeatVisits": "Kunjungan Berulang",
+    "ndaSignatures": "Tanda Tangan NDA",
+    "recentActivity": "Aktivitas Terbaru",
+    "revokeAccess": "Cabut Semua Akses",
+    "revokeConfirm": "Ini akan membatalkan semua kode akses saat ini dan memerlukan masuk ulang. Lanjutkan?",
+    "deleteSuite": "Hapus Suite",
+    "deleteInstructions": "Instruksi untuk Menghapus",
+    "noActivity": "Belum ada aktivitas tercatat",
+    "accessDashboard": "Akses Dasbor",
+    "buyerTypeBreakdown": "Distribusi Tipe Pembeli",
+    "conciergeRequests": "Permintaan Concierge",
+    "foLeads": "Lead Family Office",
+    "briefingCompletion": "Penyelesaian Briefing",
+    "exportDossier": "Ekspor PDF Dossier",
+    "globalBuyers": "Pembeli Global",
+    "localBuyers": "Pembeli Lokal"
+  },
+  "footer": {
+    "privateRepresentation": "Representasi pribadi oleh {consultant}, {agency}",
+    "ceaNo": "No. CEA: {ceaNo}",
+    "confidentialNotice": "Semua informasi yang terkandung di sini sangat rahasia",
+    "pdpaNotice": "Data disimpan selama 90 hari sesuai pedoman PDPA"
+  },
+  "meta": {
+    "title": "Properti Pribadi | Hanya Dengan Undangan",
+    "description": "Kesempatan akuisisi properti eksklusif. Hanya tersedia dengan undangan."
+  },
+  "selectBriefing": {
+    "classification": "Rahasia",
+    "title": "Pilih Briefing Anda",
+    "subtitle": "Kami telah menyiapkan dua briefing intelijen khusus. Pilih yang sesuai dengan profil akuisisi Anda.",
+    "global": {
+      "title": "Relokasi Keluarga Global",
+      "subtitle": "Analisis Safe Haven Singapura untuk keluarga internasional yang mencari diversifikasi yurisdiksi, efisiensi pajak, dan perencanaan kontinuitas keluarga.",
+      "feature1": "Scorecard Perlindungan Modal",
+      "feature2": "Jalur Family Office (13O/13U)",
+      "feature3": "Concierge Pendidikan & Kesehatan"
+    },
+    "local": {
+      "title": "Warga Negara / PR Singapura",
+      "subtitle": "Dossier asal-usul aset komprehensif, intelijen transaksi, dan analisis URA Master Plan untuk akuisisi yang terinformasi.",
+      "feature1": "Due Diligence Hak Milik & Tanah",
+      "feature2": "Perbandingan Transaksi",
+      "feature3": "Analisis Skenario Hasil"
+    },
+    "enterBriefing": "Masuk Briefing",
+    "footerNote": "Pilihan Anda membantu kami menyediakan intelijen yang relevan. Semua data bersifat rahasia."
+  },
+  "briefing": {
+    "common": {
+      "mapPlaceholder": "Peta interaktif tersedia dengan integrasi Mapbox",
+      "namePlaceholder": "Nama Lengkap",
+      "emailPlaceholder": "Alamat Email",
+      "phonePlaceholder": "Telepon (Opsional)",
+      "messagePlaceholder": "Catatan Tambahan (Opsional)",
+      "submit": "Kirim",
+      "cancel": "Batal",
+      "close": "Tutup"
+    },
+    "global": {
+      "classification": "Briefing Intelijen Pribadi",
+      "title": "Dasbor Kedaulatan Singapura",
+      "scorecard": {
+        "title": "Scorecard Perlindungan Modal",
+        "subtitle": "Analisis yurisdiksi komparatif untuk pelestarian kekayaan",
+        "capitalGains": "Pajak Capital Gains",
+        "estateDuty": "Pajak Warisan",
+        "growth2024": "Pertumbuhan Mewah 2024",
+        "metric": "Metrik",
+        "metrics": {
+          "capitalGainsTax": "Pajak Capital Gains",
+          "estateDuty": "Pajak Warisan / Harta",
+          "dividendTax": "Pajak Dividen",
+          "politicalStability": "Stabilitas Politik (EIU 2025)",
+          "crsReporting": "Lingkup Pelaporan CRS Otomatis",
+          "chinaExtradition": "Perjanjian Ekstradisi Tiongkok"
+        },
+        "sources": "Sumber: IRAS, Indeks Stabilitas Politik EIU 2025, Pedoman CRS MAS, Database Perjanjian Bilateral"
+      },
+      "familyOffice": {
+        "title": "Jalur Family Office",
+        "subtitle": "Skema Insentif Pajak Singapura Bagian 13O/13U untuk Single Family Office",
+        "steps": {
+          "assetAcquisition": {
+            "title": "Akuisisi Aset",
+            "description": "Akuisisi properti ini sebagai aset fondasi, menunjukkan komitmen ke Singapura"
+          },
+          "establishSFO": {
+            "title": "Dirikan SFO",
+            "description": "Dirikan Single Family Office di bawah skema MAS 13O dengan AUM S$20M+"
+          },
+          "employmentPass": {
+            "title": "Employment Pass",
+            "description": "EP untuk prinsipal dan anggota keluarga kunci, jalur ke PR dan kewarganegaraan"
+          },
+          "taxFreeGains": {
+            "title": "0% Pajak atas Keuntungan",
+            "description": "Pendapatan dana yang memenuhi syarat bebas dari pajak Singapura di bawah 13O/13U"
+          }
+        },
+        "ctaButton": "Minta Panggilan Kelayakan 13O Rahasia",
+        "modal": {
+          "title": "Konsultasi Family Office",
+          "subtitle": "Mitra penataan kekayaan kami akan menghubungi Anda dalam 2 jam kerja SGT.",
+          "successTitle": "Permintaan Diterima",
+          "successMessage": "Seorang spesialis akan segera menghubungi Anda untuk mendiskusikan opsi penataan Family Office."
+        }
+      },
+      "familyOS": {
+        "title": "Sistem Operasi Keluarga",
+        "subtitle": "Infrastruktur gaya hidup komprehensif untuk bab Singapura keluarga Anda",
+        "tabs": {
+          "health": "Kesehatan",
+          "education": "Pendidikan",
+          "security": "Keamanan",
+          "lifestyle": "Gaya Hidup",
+          "pets": "Perawatan Hewan"
+        },
+        "health": {
+          "title": "Akses Kesehatan Elite",
+          "conciergeNote": "Layanan concierge medis pribadi termasuk dalam akuisisi"
+        },
+        "education": {
+          "title": "Sekolah Internasional Premier",
+          "annualFees": "S$50.000+ per tahun",
+          "description": "Kepemilikan properti Distrik 10 memperkuat aplikasi ke sekolah internasional elite. Konsultan pendidikan kami mengkhususkan diri dalam strategi penerimaan untuk UWCSEA, Tanglin Trust, dan Singapore American School.",
+          "strategyNote": "Briefing strategi penerimaan tersedia atas permintaan"
+        },
+        "security": {
+          "title": "Profil Privasi & Keamanan",
+          "gurkha": "Memenuhi syarat untuk konsultasi Keamanan Gurkha - keamanan pribadi elite Singapura",
+          "enclave": "Enklave low-profile D10 - lalu lintas publik minimal, protokol tetangga diplomatik",
+          "privacy": "Tidak ada registrasi publik alamat hunian UHNI di Singapura"
+        },
+        "lifestyle": {
+          "title": "Networking & Dining Eksklusif",
+          "michelin": "12 restoran berbintang Michelin dalam 10 menit berkendara"
+        },
+        "pets": {
+          "title": "Layanan Hewan Premium",
+          "beecroft": "Kemampuan bedah 24/7, perawatan dokter hewan spesialis",
+          "cashless": "Asuransi Premium",
+          "relocation": "Mitra Relokasi Hewan",
+          "relocationDescription": "Spesialis relokasi hewan bersertifikat untuk transfer internasional yang mulus dari hewan pendamping"
+        }
+      },
+      "roi": {
+        "title": "ROI Pelestarian Kekayaan",
+        "subtitle": "Kinerja Indeks Harga Hunian Mewah Singapura",
+        "caption": "Apresiasi aset + Stabilitas mata uang (SGD) + Keamanan yurisdiksi = Strategi pelestarian kekayaan komprehensif",
+        "source": "Sumber: Indeks Harga Hunian Pribadi URA, Laporan Kekayaan Knight Frank 2025"
+      },
+      "cta": {
+        "title": "Lanjutkan ke Digital Twin Aset Pribadi",
+        "subtitle": "Anda telah menyelesaikan briefing kedaulatan. Lanjutkan ke presentasi properti lengkap.",
+        "button": "Lihat Detail Properti"
+      }
+    },
+    "local": {
+      "classification": "Dossier Intelijen Aset",
+      "title": "Dossier Asal-usul Aset",
+      "titleLand": {
+        "title": "Analisis Hak Milik & Tanah",
+        "subtitle": "Verifikasi hak milik tanah dan zonasi komprehensif",
+        "tenure": "Masa Sewa",
+        "landArea": "Luas Tanah",
+        "plotRatio": "Plot Ratio",
+        "zoning": "Zonasi",
+        "lotDetails": "Detail Lot",
+        "lotNumber": "Nomor Lot",
+        "district": "Distrik Perencanaan",
+        "gpr": "Gross Plot Ratio",
+        "buildCoverage": "Cakupan Bangunan",
+        "encumbrances": "Pembebanan",
+        "cleanTitle": "Hak Milik Bersih - Tidak ada caveat atau pembebanan",
+        "titleNote": "Pencarian hak milik dilakukan melalui sistem INLIS Otoritas Pertanahan Singapura",
+        "source": "Sumber: Singapore Land Authority (SLA)"
+      },
+      "architecture": {
+        "title": "Silsilah Arsitektur",
+        "subtitle": "Asal-usul desain dan penilaian kualitas konstruksi",
+        "architect": "Arsitek",
+        "yearBuilt": "Tahun Dibangun",
+        "style": "Gaya Arsitektur",
+        "awards": "Penghargaan & Pengakuan",
+        "scdaProfile": "Tentang SCDA Architects",
+        "scdaDescription": "SCDA Architects, dipimpin oleh Chan Soo Khian, diakui secara internasional untuk modernisme tropis. Firma ini telah menyelesaikan hunian mewah dan resor di seluruh Asia, meraih banyak penghargaan desain."
+      },
+      "transactions": {
+        "title": "Intelijen Transaksi",
+        "subtitle": "Perbandingan Good Class Bungalow Distrik 10 terbaru",
+        "address": "Alamat",
+        "date": "Tanggal",
+        "psf": "$/PSF",
+        "landSize": "Luas Tanah",
+        "price": "Harga",
+        "psfVsLand": "Analisis PSF vs Luas Tanah",
+        "chartNote": "Penanda emas menunjukkan posisi properti subjek",
+        "source": "Sumber: URA REALIS, Riset Knight Frank Q1 2026"
+      },
+      "masterPlan": {
+        "title": "Dampak URA Master Plan 2025",
+        "subtitle": "Prospek perencanaan kota untuk pelestarian modal berkelanjutan",
+        "noZoningChanges": "Tidak Ada Perubahan Zonasi yang Direncanakan",
+        "zoningNote": "Perlindungan zonasi GCB dipertahankan hingga 2035",
+        "transportUpgrade": "Konektivitas Transportasi Ditingkatkan",
+        "transportNote": "Thomson-East Coast Line meningkatkan aksesibilitas Orchard-Downtown",
+        "heritageStatus": "Berdekatan dengan Koridor Warisan",
+        "heritageNote": "Kedekatan dengan situs UNESCO Botanic Gardens mendukung floor value",
+        "outlook": "Prospek Pelestarian Modal: Stabil",
+        "outlookNote": "Tidak ada perubahan perencanaan yang merugikan. Fundamental nilai jangka panjang utuh.",
+        "source": "Sumber: URA Master Plan 2025, LTA Land Transport Master Plan"
+      },
+      "yield": {
+        "title": "Analisis Skenario Hasil",
+        "subtitle": "Potensi pendapatan sewa dari penyewaan diplomatik atau korporat",
+        "estimatedRent": "Estimasi Sewa Bulanan",
+        "perMonth": "per bulan",
+        "grossYield": "Hasil Kotor",
+        "tenantProfile": "Penyewa Tipikal",
+        "tenantTypes": "Kedutaan / MNC / Family Office",
+        "scenarioAnalysis": "Analisis Skenario",
+        "scenarioDescription": "Berdasarkan sewa GCB D10 yang sebanding ke misi diplomatik dan perusahaan multinasional. Mengasumsikan sewa jangka panjang (2+ tahun) dengan ketentuan klausul diplomatik standar.",
+        "source": "Sumber: Knight Frank Singapore GCB Rental Index Q1 2026"
+      },
+      "cta": {
+        "title": "Lanjutkan ke Digital Twin Aset Pribadi",
+        "subtitle": "Anda telah menyelesaikan dossier asal-usul. Lanjutkan ke presentasi properti lengkap.",
+        "button": "Lihat Detail Properti"
+      }
+    }
+  },
+  "concierge": {
+    "title": "Concierge Pribadi",
+    "subtitle": "Pilih spesialis untuk membantu perjalanan akuisisi Anda",
+    "options": {
+      "wealth": {
+        "title": "Spesialis Penataan Kekayaan",
+        "description": "Family office, perencanaan pajak, perlindungan aset"
+      },
+      "education": {
+        "title": "Konsultan Penerimaan Pendidikan",
+        "description": "Strategi penempatan sekolah internasional"
+      },
+      "medical": {
+        "title": "Concierge Medis",
+        "description": "Navigasi kesehatan pribadi, rujukan spesialis"
+      },
+      "security": {
+        "title": "Konsultan Keamanan",
+        "description": "Penilaian keamanan hunian, penghubung Gurkha"
+      }
+    },
+    "success": {
+      "title": "Permintaan Diterima",
+      "message": "Spesialis Anda akan menghubungi Anda dalam 2 jam kerja SGT.",
+      "close": "Tutup"
+    }
+  },
+  "scarcity": {
+    "badge": "Hanya Dengan Undangan",
+    "message": "1 dari 3 penayangan aktif Q4 2026 • Akses kedaluwarsa 90 hari dari tanda tangan NDA"
+  }
+}

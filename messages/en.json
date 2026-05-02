@@ -1,0 +1,375 @@
+{
+  "common": {
+    "byInvitationOnly": "By Invitation Only",
+    "confidential": "Confidential",
+    "accessGranted": "Access Granted",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "required": "Required",
+    "optional": "Optional",
+    "language": "Language",
+    "en": "English",
+    "zh": "中文",
+    "id": "Bahasa"
+  },
+  "gate": {
+    "title": "Private Access",
+    "subtitle": "This property is available by invitation only",
+    "placeholder": "Enter access code",
+    "invalidCode": "Invalid access code",
+    "tooManyAttempts": "Too many attempts. Please try again later.",
+    "enterButton": "Enter",
+    "contactConsultant": "Contact your consultant for access credentials"
+  },
+  "nda": {
+    "title": "Confidentiality Agreement",
+    "scrollToRead": "Please scroll to read the entire agreement",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "company": "Company / Organization",
+    "agreeText": "I have read and agree to the confidentiality terms above",
+    "agreementRequired": "You must agree to the terms to continue",
+    "submitButton": "Accept & Continue",
+    "accessConfirmed": "Access Confirmed",
+    "confirmationMessage": "Your activity is logged and all documents are watermarked for your identification."
+  },
+  "property": {
+    "theBrief": "The Brief",
+    "theResidence": "The Residence",
+    "architecture": "Architecture & Design",
+    "provenance": "Provenance",
+    "location": "Location",
+    "gallery": "Gallery",
+    "floorPlans": "Floor Plans",
+    "documents": "Documents",
+    "privateViewing": "Request Private Viewing",
+    "acquisition": "Acquisition Details",
+    "appointmentOnly": "Available by appointment only",
+    "propertyType": "Property Type",
+    "tenure": "Tenure",
+    "landArea": "Land Area",
+    "builtUp": "Built-Up",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "designedBy": "Designed by",
+    "mapUponRequest": "Map available upon request",
+    "viewFullGallery": "View Full Gallery",
+    "accessDocuments": "Access Documents",
+    "scheduleViewing": "Schedule Viewing"
+  },
+  "propertyContent": {
+    "residenceDescription": "A masterpiece of modern tropical architecture, this Good Class Bungalow represents the pinnacle of residential luxury in Singapore. Meticulously crafted by SCDA Architects, the residence seamlessly blends indoor and outdoor living across three levels of thoughtfully designed space.",
+    "architectureDescription": "The architectural vision draws inspiration from traditional tropical vernacular while embracing contemporary minimalism. Floor-to-ceiling glazing frames curated garden views, while carefully positioned skylights bathe the interiors in natural light throughout the day.",
+    "provenanceDescription": "Nassim Hill has been the address of choice for distinguished families and diplomatic residences since Singapore's colonial era. This particular site has been held by a single family for three generations before this rare offering.",
+    "feature1": "Private lift and car park for 4 vehicles",
+    "feature2": "Infinity pool with city views",
+    "feature3": "Wine cellar and tasting room",
+    "feature4": "Home automation system",
+    "feature5": "Landscaped tropical garden",
+    "feature6": "Staff quarters"
+  },
+  "documents": {
+    "title": "Confidential Documents",
+    "subtitle": "All documents are watermarked with your identity",
+    "download": "View Document",
+    "floorPlan": "Floor Plan",
+    "brochure": "Property Brochure",
+    "titleDeed": "Title Information",
+    "unauthorized": "You must sign the confidentiality agreement to access documents",
+    "securityNotice": "Security Notice",
+    "securityMessage": "All documents are watermarked with your identity and access timestamp. Downloads are logged for security purposes. Unauthorized distribution is prohibited under the confidentiality agreement.",
+    "pdfDocument": "PDF Document"
+  },
+  "viewing": {
+    "title": "Request Private Viewing",
+    "subtitle": "Schedule an exclusive appointment to experience this residence",
+    "selectTime": "Select your preferred time",
+    "confirmationTitle": "Viewing Reserved",
+    "confirmationMessage": "{consultant}'s PA will contact you within 24 hours to confirm your private viewing appointment.",
+    "slotReserved": "Your viewing slot is reserved",
+    "preferDirect": "Prefer to arrange directly?"
+  },
+  "gallery": {
+    "all": "All",
+    "exterior": "Exterior",
+    "interior": "Interior",
+    "amenity": "Amenities",
+    "view": "Views"
+  },
+  "admin": {
+    "title": "Consultant Dashboard",
+    "login": "Administrator Access",
+    "loginPlaceholder": "Enter admin code",
+    "invalidCode": "Invalid administrator code",
+    "analytics": "Analytics Overview",
+    "uniqueVisitors": "Unique Visitors",
+    "timeOnSite": "Avg. Time on Site",
+    "pagesViewed": "Pages Viewed",
+    "documentsDownloaded": "Documents Downloaded",
+    "repeatVisits": "Repeat Visits",
+    "ndaSignatures": "NDA Signatures",
+    "recentActivity": "Recent Activity",
+    "revokeAccess": "Revoke All Access",
+    "revokeConfirm": "This will invalidate all current access codes and require re-entry. Continue?",
+    "deleteSuite": "Delete Suite",
+    "deleteInstructions": "Instructions to Delete",
+    "noActivity": "No activity recorded yet",
+    "accessDashboard": "Access Dashboard",
+    "buyerTypeBreakdown": "Buyer Type Breakdown",
+    "conciergeRequests": "Concierge Requests",
+    "foLeads": "Family Office Leads",
+    "briefingCompletion": "Briefing Completion",
+    "exportDossier": "Export Dossier PDF",
+    "globalBuyers": "Global Buyers",
+    "localBuyers": "Local Buyers"
+  },
+  "footer": {
+    "privateRepresentation": "A private representation by {consultant}, {agency}",
+    "ceaNo": "CEA No: {ceaNo}",
+    "confidentialNotice": "All information contained herein is strictly confidential",
+    "pdpaNotice": "Data retained for 90 days per PDPA guidelines"
+  },
+  "meta": {
+    "title": "Private Property | By Invitation Only",
+    "description": "Exclusive property acquisition opportunity. Available by invitation only."
+  },
+  "selectBriefing": {
+    "classification": "Confidential",
+    "title": "Select Your Briefing",
+    "subtitle": "We've prepared two customized intelligence briefings. Select the one that matches your acquisition profile.",
+    "global": {
+      "title": "Global Family Relocation",
+      "subtitle": "Singapore Safe Haven Analysis for international families seeking jurisdictional diversification, tax efficiency, and family continuity planning.",
+      "feature1": "Capital Protection Scorecard",
+      "feature2": "Family Office (13O/13U) Pathway",
+      "feature3": "Education & Healthcare Concierge"
+    },
+    "local": {
+      "title": "Singapore Citizen / PR",
+      "subtitle": "Comprehensive asset provenance dossier, transaction intelligence, and URA Master Plan analysis for informed acquisition.",
+      "feature1": "Title & Land Due Diligence",
+      "feature2": "Transaction Comparables",
+      "feature3": "Yield Scenario Analysis"
+    },
+    "enterBriefing": "Enter Briefing",
+    "footerNote": "Your selection helps us provide relevant intelligence. All data is confidential."
+  },
+  "briefing": {
+    "common": {
+      "mapPlaceholder": "Interactive map available with Mapbox integration",
+      "namePlaceholder": "Full Name",
+      "emailPlaceholder": "Email Address",
+      "phonePlaceholder": "Phone (Optional)",
+      "messagePlaceholder": "Additional Notes (Optional)",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "close": "Close"
+    },
+    "global": {
+      "classification": "Private Intelligence Briefing",
+      "title": "Singapore Sovereignty Dashboard",
+      "scorecard": {
+        "title": "Capital Protection Scorecard",
+        "subtitle": "Comparative jurisdiction analysis for wealth preservation",
+        "capitalGains": "Capital Gains Tax",
+        "estateDuty": "Estate Duty",
+        "growth2024": "2024 Luxury Growth",
+        "metric": "Metric",
+        "metrics": {
+          "capitalGainsTax": "Capital Gains Tax",
+          "estateDuty": "Estate / Inheritance Duty",
+          "dividendTax": "Dividend Tax",
+          "politicalStability": "Political Stability (EIU 2025)",
+          "crsReporting": "CRS Auto-Reporting Scope",
+          "chinaExtradition": "China Extradition Treaty"
+        },
+        "sources": "Sources: IRAS, EIU Political Stability Index 2025, MAS CRS Guidelines, Bilateral Treaty Database"
+      },
+      "familyOffice": {
+        "title": "Family Office Pathway",
+        "subtitle": "Singapore Section 13O/13U Tax Incentive Scheme for Single Family Offices",
+        "steps": {
+          "assetAcquisition": {
+            "title": "Asset Acquisition",
+            "description": "Acquire this property as foundation asset, demonstrating commitment to Singapore"
+          },
+          "establishSFO": {
+            "title": "Establish SFO",
+            "description": "Set up Single Family Office under MAS 13O scheme with S$20M+ AUM"
+          },
+          "employmentPass": {
+            "title": "Employment Passes",
+            "description": "EP for principal and key family members, path to PR and citizenship"
+          },
+          "taxFreeGains": {
+            "title": "0% Tax on Gains",
+            "description": "Qualifying fund income exempt from Singapore tax under 13O/13U"
+          }
+        },
+        "ctaButton": "Request Confidential 13O Eligibility Call",
+        "modal": {
+          "title": "Family Office Consultation",
+          "subtitle": "Our wealth structuring partners will contact you within 2 SGT business hours.",
+          "successTitle": "Request Received",
+          "successMessage": "A specialist will contact you shortly to discuss Family Office structuring options."
+        }
+      },
+      "familyOS": {
+        "title": "Family Operating System",
+        "subtitle": "Comprehensive lifestyle infrastructure for your family's Singapore chapter",
+        "tabs": {
+          "health": "Healthcare",
+          "education": "Education",
+          "security": "Security",
+          "lifestyle": "Lifestyle",
+          "pets": "Pet Care"
+        },
+        "health": {
+          "title": "Elite Healthcare Access",
+          "conciergeNote": "Private medical concierge service included with acquisition"
+        },
+        "education": {
+          "title": "Premier International Schools",
+          "annualFees": "S$50,000+ annually",
+          "description": "District 10 property ownership strengthens applications to elite international schools. Our education consultants specialize in admission strategy for UWCSEA, Tanglin Trust, and Singapore American School.",
+          "strategyNote": "Admission strategy briefing available upon request"
+        },
+        "security": {
+          "title": "Privacy & Security Profile",
+          "gurkha": "Eligible for Gurkha Security consultation - Singapore's elite private security",
+          "enclave": "D10 low-profile enclave - minimal public traffic, diplomatic neighbor protocol",
+          "privacy": "No public registry of UHNI residential addresses in Singapore"
+        },
+        "lifestyle": {
+          "title": "Exclusive Networking & Dining",
+          "michelin": "12 Michelin-starred restaurants within 10-minute drive"
+        },
+        "pets": {
+          "title": "Premium Pet Services",
+          "beecroft": "24/7 surgical capability, specialist veterinary care",
+          "cashless": "Premium Insurance",
+          "relocation": "Pet Relocation Partners",
+          "relocationDescription": "Certified pet relocation specialists for seamless international transfer of companion animals"
+        }
+      },
+      "roi": {
+        "title": "Wealth Preservation ROI",
+        "subtitle": "Singapore Luxury Residential Price Index Performance",
+        "caption": "Asset appreciation + Currency stability (SGD) + Jurisdiction security = Comprehensive wealth preservation strategy",
+        "source": "Source: URA Private Residential Price Index, Knight Frank Wealth Report 2025"
+      },
+      "cta": {
+        "title": "Proceed to Private Asset Digital Twin",
+        "subtitle": "You've completed the sovereignty briefing. Continue to the full property presentation.",
+        "button": "View Property Details"
+      }
+    },
+    "local": {
+      "classification": "Asset Intelligence Dossier",
+      "title": "Asset Provenance Dossier",
+      "titleLand": {
+        "title": "Title & Land Analysis",
+        "subtitle": "Comprehensive land title and zoning verification",
+        "tenure": "Tenure",
+        "landArea": "Land Area",
+        "plotRatio": "Plot Ratio",
+        "zoning": "Zoning",
+        "lotDetails": "Lot Details",
+        "lotNumber": "Lot Number",
+        "district": "Planning District",
+        "gpr": "Gross Plot Ratio",
+        "buildCoverage": "Building Coverage",
+        "encumbrances": "Encumbrances",
+        "cleanTitle": "Clean Title - No caveats or encumbrances",
+        "titleNote": "Title search conducted via Singapore Land Authority INLIS system",
+        "source": "Source: Singapore Land Authority (SLA)"
+      },
+      "architecture": {
+        "title": "Architectural Pedigree",
+        "subtitle": "Design provenance and construction quality assessment",
+        "architect": "Architect",
+        "yearBuilt": "Year Built",
+        "style": "Architectural Style",
+        "awards": "Awards & Recognition",
+        "scdaProfile": "About SCDA Architects",
+        "scdaDescription": "SCDA Architects, led by Chan Soo Khian, is internationally recognized for tropical modernism. The firm has completed luxury residences and resorts across Asia, earning numerous design awards."
+      },
+      "transactions": {
+        "title": "Transaction Intelligence",
+        "subtitle": "Recent District 10 Good Class Bungalow comparables",
+        "address": "Address",
+        "date": "Date",
+        "psf": "$/PSF",
+        "landSize": "Land Size",
+        "price": "Price",
+        "psfVsLand": "PSF vs Land Size Analysis",
+        "chartNote": "Gold marker indicates subject property positioning",
+        "source": "Source: URA REALIS, Knight Frank Research Q1 2026"
+      },
+      "masterPlan": {
+        "title": "URA Master Plan 2025 Impact",
+        "subtitle": "Urban planning outlook for sustained capital preservation",
+        "noZoningChanges": "No Zoning Changes Planned",
+        "zoningNote": "GCB zoning protection maintained through 2035",
+        "transportUpgrade": "Transport Connectivity Enhanced",
+        "transportNote": "Thomson-East Coast Line improves Orchard-Downtown accessibility",
+        "heritageStatus": "Heritage Corridor Adjacent",
+        "heritageNote": "Proximity to Botanic Gardens UNESCO site supports value floor",
+        "outlook": "Capital Preservation Outlook: Stable",
+        "outlookNote": "No adverse planning changes. Long-term value fundamentals intact.",
+        "source": "Source: URA Master Plan 2025, LTA Land Transport Master Plan"
+      },
+      "yield": {
+        "title": "Yield Scenario Analysis",
+        "subtitle": "Potential rental income from diplomatic or corporate tenancy",
+        "estimatedRent": "Estimated Monthly Rent",
+        "perMonth": "per month",
+        "grossYield": "Gross Yield",
+        "tenantProfile": "Typical Tenant",
+        "tenantTypes": "Embassy / MNC / Family Office",
+        "scenarioAnalysis": "Scenario Analysis",
+        "scenarioDescription": "Based on comparable D10 GCB rentals to diplomatic missions and multinational corporations. Assumes long-term lease (2+ years) with standard diplomatic clause provisions.",
+        "source": "Source: Knight Frank Singapore GCB Rental Index Q1 2026"
+      },
+      "cta": {
+        "title": "Proceed to Private Asset Digital Twin",
+        "subtitle": "You've completed the provenance dossier. Continue to the full property presentation.",
+        "button": "View Property Details"
+      }
+    }
+  },
+  "concierge": {
+    "title": "Private Concierge",
+    "subtitle": "Select a specialist to assist with your acquisition journey",
+    "options": {
+      "wealth": {
+        "title": "Wealth Structuring Specialist",
+        "description": "Family office, tax planning, asset protection"
+      },
+      "education": {
+        "title": "Education Admission Consultant",
+        "description": "International school placement strategy"
+      },
+      "medical": {
+        "title": "Medical Concierge",
+        "description": "Private healthcare navigation, specialist referrals"
+      },
+      "security": {
+        "title": "Security Consultant",
+        "description": "Residential security assessment, Gurkha liaison"
+      }
+    },
+    "success": {
+      "title": "Request Received",
+      "message": "Your specialist will contact you within 2 SGT business hours.",
+      "close": "Close"
+    }
+  },
+  "scarcity": {
+    "badge": "Invitation Only",
+    "message": "1 of 3 active viewings Q4 2026 • Access expires 90 days from NDA signature"
+  }
+}

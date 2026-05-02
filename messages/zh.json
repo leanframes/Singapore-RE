@@ -1,0 +1,375 @@
+{
+  "common": {
+    "byInvitationOnly": "仅限受邀人士",
+    "confidential": "机密",
+    "accessGranted": "访问已授权",
+    "submit": "提交",
+    "cancel": "取消",
+    "close": "关闭",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "required": "必填",
+    "optional": "选填",
+    "language": "语言",
+    "en": "English",
+    "zh": "中文",
+    "id": "Bahasa"
+  },
+  "gate": {
+    "title": "私人访问",
+    "subtitle": "此房产仅限受邀人士查看",
+    "placeholder": "输入访问码",
+    "invalidCode": "访问码无效",
+    "tooManyAttempts": "尝试次数过多，请稍后再试",
+    "enterButton": "进入",
+    "contactConsultant": "请联系您的顾问获取访问凭证"
+  },
+  "nda": {
+    "title": "保密协议",
+    "scrollToRead": "请滚动阅读完整协议",
+    "fullName": "全名",
+    "email": "电子邮件",
+    "company": "公司/机构",
+    "agreeText": "我已阅读并同意上述保密条款",
+    "agreementRequired": "您必须同意条款才能继续",
+    "submitButton": "接受并继续",
+    "accessConfirmed": "访问已确认",
+    "confirmationMessage": "您的活动已被记录，所有文档均已添加您的身份水印。"
+  },
+  "property": {
+    "theBrief": "投资简报",
+    "theResidence": "豪宅概览",
+    "architecture": "建筑与设计",
+    "provenance": "历史渊源",
+    "location": "位置",
+    "gallery": "图库",
+    "floorPlans": "平面图",
+    "documents": "文档",
+    "privateViewing": "预约私人看房",
+    "acquisition": "收购详情",
+    "appointmentOnly": "仅限预约参观",
+    "propertyType": "物业类型",
+    "tenure": "产权",
+    "landArea": "土地面积",
+    "builtUp": "建筑面积",
+    "bedrooms": "卧室",
+    "bathrooms": "浴室",
+    "designedBy": "设计师",
+    "mapUponRequest": "地图可应要求提供",
+    "viewFullGallery": "查看完整图库",
+    "accessDocuments": "访问文档",
+    "scheduleViewing": "预约看房"
+  },
+  "propertyContent": {
+    "residenceDescription": "这座优质洋房是现代热带建筑的杰作，代表了新加坡住宅豪华的巅峰。由SCDA建筑事务所精心打造，这座住宅在三层精心设计的空间中完美融合了室内外生活。",
+    "architectureDescription": "建筑愿景汲取传统热带建筑风格的灵感，同时拥抱当代极简主义。落地玻璃窗框架出精心策划的花园景观，精心布置的天窗让自然光线全天沐浴室内。",
+    "provenanceDescription": "自新加坡殖民时代以来，纳森山一直是杰出家族和外交官邸的首选地址。这块特定的土地在此次罕见出售之前，已由一个家族持有了三代。",
+    "feature1": "私人电梯及可停放4辆车的车库",
+    "feature2": "可俯瞰城市景观的无边泳池",
+    "feature3": "酒窖和品酒室",
+    "feature4": "智能家居系统",
+    "feature5": "热带景观花园",
+    "feature6": "员工宿舍"
+  },
+  "documents": {
+    "title": "机密文档",
+    "subtitle": "所有文档均已添加您的身份水印",
+    "download": "查看文档",
+    "floorPlan": "平面图",
+    "brochure": "物业手册",
+    "titleDeed": "产权信息",
+    "unauthorized": "您必须签署保密协议才能访问文档",
+    "securityNotice": "安全提示",
+    "securityMessage": "所有文档均已添加您的身份信息和访问时间戳水印。下载记录将被保存以供安全审计。根据保密协议，禁止未经授权的传播。",
+    "pdfDocument": "PDF文档"
+  },
+  "viewing": {
+    "title": "预约私人看房",
+    "subtitle": "预约专属时间体验这座豪宅",
+    "selectTime": "选择您的首选时间",
+    "confirmationTitle": "看房已预约",
+    "confirmationMessage": "{consultant}的私人助理将在24小时内与您联系确认私人看房预约。",
+    "slotReserved": "您的看房时段已预留",
+    "preferDirect": "希望直接联系？"
+  },
+  "gallery": {
+    "all": "全部",
+    "exterior": "外观",
+    "interior": "室内",
+    "amenity": "设施",
+    "view": "景观"
+  },
+  "admin": {
+    "title": "顾问仪表板",
+    "login": "管理员访问",
+    "loginPlaceholder": "输入管理员代码",
+    "invalidCode": "管理员代码无效",
+    "analytics": "分析概览",
+    "uniqueVisitors": "独立访客",
+    "timeOnSite": "平均停留时间",
+    "pagesViewed": "页面浏览",
+    "documentsDownloaded": "文档下载",
+    "repeatVisits": "回访次数",
+    "ndaSignatures": "保密协议签署",
+    "recentActivity": "近期活动",
+    "revokeAccess": "撤销所有访问",
+    "revokeConfirm": "这将使所有当前访问码失效并要求重新进入。继续吗？",
+    "deleteSuite": "删除套件",
+    "deleteInstructions": "删除说明",
+    "noActivity": "暂无活动记录",
+    "accessDashboard": "访问仪表板",
+    "buyerTypeBreakdown": "买家类型分布",
+    "conciergeRequests": "礼宾服务请求",
+    "foLeads": "家办意向客户",
+    "briefingCompletion": "简报完成率",
+    "exportDossier": "导出档案PDF",
+    "globalBuyers": "国际买家",
+    "localBuyers": "本地买家"
+  },
+  "footer": {
+    "privateRepresentation": "由 {consultant}，{agency} 私人代理",
+    "ceaNo": "CEA 编号: {ceaNo}",
+    "confidentialNotice": "此处包含的所有信息均为严格保密",
+    "pdpaNotice": "数据根据 PDPA 指南保留90天"
+  },
+  "meta": {
+    "title": "私人房产 | 仅限受邀人士",
+    "description": "独家房产收购机会。仅限受邀人士。"
+  },
+  "selectBriefing": {
+    "classification": "机密",
+    "title": "选择您的简报",
+    "subtitle": "我们准备了两份定制智能简报。请选择与您的收购需求相匹配的版本。",
+    "global": {
+      "title": "全球家族迁移",
+      "subtitle": "为寻求司法管辖区多元化、税务效率和家族传承规划的国际家庭提供新加坡安全港分析。",
+      "feature1": "资本保护评分卡",
+      "feature2": "家办 (13O/13U) 路径",
+      "feature3": "教育与医疗礼宾服务"
+    },
+    "local": {
+      "title": "新加坡公民/PR",
+      "subtitle": "全面的资产来源档案、交易情报和URA总体规划分析，助您做出明智的收购决策。",
+      "feature1": "产权与土地尽职调查",
+      "feature2": "交易可比分析",
+      "feature3": "收益情景分析"
+    },
+    "enterBriefing": "进入简报",
+    "footerNote": "您的选择帮助我们提供相关情报。所有数据均为保密。"
+  },
+  "briefing": {
+    "common": {
+      "mapPlaceholder": "Mapbox集成交互式地图可用",
+      "namePlaceholder": "全名",
+      "emailPlaceholder": "电子邮件地址",
+      "phonePlaceholder": "电话（选填）",
+      "messagePlaceholder": "附加说明（选填）",
+      "submit": "提交",
+      "cancel": "取消",
+      "close": "关闭"
+    },
+    "global": {
+      "classification": "私人情报简报",
+      "title": "新加坡主权仪表板",
+      "scorecard": {
+        "title": "资本保护评分卡",
+        "subtitle": "财富保值的司法管辖区比较分析",
+        "capitalGains": "资本利得税",
+        "estateDuty": "遗产税",
+        "growth2024": "2024年豪宅增长",
+        "metric": "指标",
+        "metrics": {
+          "capitalGainsTax": "资本利得税",
+          "estateDuty": "遗产/继承税",
+          "dividendTax": "股息税",
+          "politicalStability": "政治稳定性 (EIU 2025)",
+          "crsReporting": "CRS自动申报范围",
+          "chinaExtradition": "中国引渡条约"
+        },
+        "sources": "来源：IRAS、EIU政治稳定指数2025、MAS CRS指南、双边条约数据库"
+      },
+      "familyOffice": {
+        "title": "家办设立路径",
+        "subtitle": "新加坡第13O/13U条单一家族办公室税收优惠计划",
+        "steps": {
+          "assetAcquisition": {
+            "title": "资产收购",
+            "description": "收购此物业作为基础资产，展示对新加坡的承诺"
+          },
+          "establishSFO": {
+            "title": "设立家办",
+            "description": "在MAS 13O计划下设立单一家族办公室，资产管理规模2000万新元以上"
+          },
+          "employmentPass": {
+            "title": "就业准证",
+            "description": "为主理人及主要家庭成员申请EP，通往PR和公民身份的路径"
+          },
+          "taxFreeGains": {
+            "title": "0%收益税",
+            "description": "合格基金收入根据13O/13U免征新加坡税"
+          }
+        },
+        "ctaButton": "申请保密13O资格咨询",
+        "modal": {
+          "title": "家办咨询",
+          "subtitle": "我们的财富结构合作伙伴将在2个新加坡工作时间内与您联系。",
+          "successTitle": "请求已收到",
+          "successMessage": "专家将很快与您联系，讨论家办结构选项。"
+        }
+      },
+      "familyOS": {
+        "title": "家庭运营系统",
+        "subtitle": "为您家庭的新加坡篇章提供全面的生活基础设施",
+        "tabs": {
+          "health": "医疗",
+          "education": "教育",
+          "security": "安保",
+          "lifestyle": "生活方式",
+          "pets": "宠物护理"
+        },
+        "health": {
+          "title": "精英医疗通道",
+          "conciergeNote": "收购附带私人医疗礼宾服务"
+        },
+        "education": {
+          "title": "顶级国际学校",
+          "annualFees": "年费50,000新元以上",
+          "description": "第10区物业所有权可增强精英国际学校申请。我们的教育顾问专门负责UWCSEA、东陵信托和新加坡美国学校的入学策略。",
+          "strategyNote": "可应要求提供入学策略简报"
+        },
+        "security": {
+          "title": "隐私与安保概况",
+          "gurkha": "有资格获得廓尔喀安保咨询 - 新加坡精英私人安保",
+          "enclave": "D10低调飞地 - 最少公共交通，外交邻居协议",
+          "privacy": "新加坡无超高净值人士住宅地址公共登记"
+        },
+        "lifestyle": {
+          "title": "独家社交与餐饮",
+          "michelin": "10分钟车程内有12家米其林星级餐厅"
+        },
+        "pets": {
+          "title": "高端宠物服务",
+          "beecroft": "24/7手术能力，专科兽医护理",
+          "cashless": "高端保险",
+          "relocation": "宠物搬迁合作伙伴",
+          "relocationDescription": "认证宠物搬迁专家，为伴侣动物提供无缝国际转移服务"
+        }
+      },
+      "roi": {
+        "title": "财富保值回报",
+        "subtitle": "新加坡豪宅价格指数表现",
+        "caption": "资产增值 + 货币稳定性（新元）+ 司法管辖区安全 = 全面财富保值策略",
+        "source": "来源：URA私人住宅价格指数，莱坊2025年财富报告"
+      },
+      "cta": {
+        "title": "进入私人资产数字孪生",
+        "subtitle": "您已完成主权简报。继续查看完整物业展示。",
+        "button": "查看物业详情"
+      }
+    },
+    "local": {
+      "classification": "资产情报档案",
+      "title": "资产来源档案",
+      "titleLand": {
+        "title": "产权与土地分析",
+        "subtitle": "全面的土地产权和分区验证",
+        "tenure": "产权",
+        "landArea": "土地面积",
+        "plotRatio": "容积率",
+        "zoning": "分区",
+        "lotDetails": "地块详情",
+        "lotNumber": "地块编号",
+        "district": "规划区",
+        "gpr": "总容积率",
+        "buildCoverage": "建筑覆盖率",
+        "encumbrances": "产权负担",
+        "cleanTitle": "产权清晰 - 无抵押或产权负担",
+        "titleNote": "通过新加坡土地管理局INLIS系统进行产权调查",
+        "source": "来源：新加坡土地管理局 (SLA)"
+      },
+      "architecture": {
+        "title": "建筑血统",
+        "subtitle": "设计来源和建造质量评估",
+        "architect": "建筑师",
+        "yearBuilt": "建造年份",
+        "style": "建筑风格",
+        "awards": "奖项与荣誉",
+        "scdaProfile": "关于SCDA建筑事务所",
+        "scdaDescription": "SCDA建筑事务所由陈首乾领导，以热带现代主义闻名于世。该事务所在亚洲各地完成了豪华住宅和度假村项目，赢得众多设计奖项。"
+      },
+      "transactions": {
+        "title": "交易情报",
+        "subtitle": "近期第10区优质洋房可比交易",
+        "address": "地址",
+        "date": "日期",
+        "psf": "$/平方尺",
+        "landSize": "土地面积",
+        "price": "价格",
+        "psfVsLand": "每平方尺价格与土地面积分析",
+        "chartNote": "金色标记表示目标物业定位",
+        "source": "来源：URA REALIS，莱坊研究2026年第一季度"
+      },
+      "masterPlan": {
+        "title": "URA 2025总体规划影响",
+        "subtitle": "持续资本保值的城市规划展望",
+        "noZoningChanges": "无计划分区变更",
+        "zoningNote": "优质洋房分区保护维持至2035年",
+        "transportUpgrade": "交通连接增强",
+        "transportNote": "汤申-东海岸线改善乌节-市中心通达性",
+        "heritageStatus": "毗邻遗产走廊",
+        "heritageNote": "靠近植物园联合国教科文组织遗址支撑价值底线",
+        "outlook": "资本保值展望：稳定",
+        "outlookNote": "无不利规划变更。长期价值基本面完好。",
+        "source": "来源：URA 2025总体规划，LTA陆路交通总体规划"
+      },
+      "yield": {
+        "title": "收益情景分析",
+        "subtitle": "外交或企业租赁的潜在租金收入",
+        "estimatedRent": "预估月租",
+        "perMonth": "每月",
+        "grossYield": "毛收益率",
+        "tenantProfile": "典型租户",
+        "tenantTypes": "大使馆 / 跨国公司 / 家办",
+        "scenarioAnalysis": "情景分析",
+        "scenarioDescription": "基于D10优质洋房向外交使团和跨国公司的可比租赁。假设长期租约（2年以上）并附有标准外交条款。",
+        "source": "来源：莱坊新加坡优质洋房租金指数2026年第一季度"
+      },
+      "cta": {
+        "title": "进入私人资产数字孪生",
+        "subtitle": "您已完成来源档案。继续查看完整物业展示。",
+        "button": "查看物业详情"
+      }
+    }
+  },
+  "concierge": {
+    "title": "私人礼宾",
+    "subtitle": "选择专家协助您的收购之旅",
+    "options": {
+      "wealth": {
+        "title": "财富结构专家",
+        "description": "家办、税务规划、资产保护"
+      },
+      "education": {
+        "title": "教育入学顾问",
+        "description": "国际学校入学策略"
+      },
+      "medical": {
+        "title": "医疗礼宾",
+        "description": "私人医疗导航、专科转介"
+      },
+      "security": {
+        "title": "安保顾问",
+        "description": "住宅安全评估、廓尔喀联络"
+      }
+    },
+    "success": {
+      "title": "请求已收到",
+      "message": "您的专家将在2个新加坡工作时间内与您联系。",
+      "close": "关闭"
+    }
+  },
+  "scarcity": {
+    "badge": "仅限邀请",
+    "message": "2026年第四季度3个活跃查看之一 • 访问权限自NDA签署起90天到期"
+  }
+}
