@@ -1,7 +1,8 @@
 import { Resend } from 'resend';
 import { consultantConfig, propertyConfig } from '@/config/property';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Lazy initialization to avoid build-time errors
+const getResend = () => new Resend(process.env.RESEND_API_KEY || '');
 
 interface NDANotificationParams {
   viewerName: string;
@@ -17,7 +18,7 @@ export async function sendNDANotificationToConsultant(params: NDANotificationPar
   }
 
   try {
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'Private Property Portal <noreply@resend.dev>',
       to: process.env.CONSULTANT_EMAIL || consultantConfig.email,
       subject: `[${propertyConfig.ref}] New NDA Signed - ${params.viewerName}`,
@@ -52,7 +53,7 @@ export async function sendNDAConfirmationToViewer(params: NDANotificationParams)
   }
 
   try {
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'Private Property Portal <noreply@resend.dev>',
       to: params.viewerEmail,
       subject: `Access Granted - ${propertyConfig.ref}`,
@@ -102,7 +103,7 @@ export async function sendLeadNotification(params: LeadNotificationParams): Prom
   }
 
   try {
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'Private Property Portal <noreply@resend.dev>',
       to: process.env.CONSULTANT_EMAIL || consultantConfig.email,
       subject: `[${propertyConfig.ref}] New Viewing Request - ${params.name}`,
