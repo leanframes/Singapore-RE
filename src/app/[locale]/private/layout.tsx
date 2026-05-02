@@ -38,11 +38,12 @@ async function getNDAContent(locale: string): Promise<string> {
 
 export default async function PrivateLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  const { locale } = params;
   const ndaCookie = cookies().get('nda_signed');
   const hasSignedNDA = !!ndaCookie?.value;
   const briefingViewedCookie = cookies().get('briefing_viewed');
