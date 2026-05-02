@@ -25,26 +25,31 @@ interface FOLeadsLog {
 }
 
 async function appendFOLead(entry: FOLeadEntry): Promise<void> {
-  const dataDir = path.join(process.cwd(), 'data');
-  const filePath = path.join(dataDir, 'fo_leads.json');
-  
-  let log: FOLeadsLog = { leads: [] };
-  
   try {
-    await fs.access(dataDir);
+    const dataDir = path.join(process.cwd(), 'data');
+    const filePath = path.join(dataDir, 'fo_leads.json');
+    
+    let log: FOLeadsLog = { leads: [] };
+    
+    try {
+      await fs.access(dataDir);
+    } catch {
+      await fs.mkdir(dataDir, { recursive: true });
+    }
+    
+    try {
+      const data = await fs.readFile(filePath, 'utf-8');
+      log = JSON.parse(data);
+    } catch {
+      // File doesn't exist
+    }
+    
+    log.leads.push(entry);
+    await fs.writeFile(filePath, JSON.stringify(log, null, 2), 'utf-8');
   } catch {
-    await fs.mkdir(dataDir, { recursive: true });
+    // Silently fail in serverless environments where filesystem is read-only
+    console.warn('[family-office-lead] Could not write to fo_leads.json - filesystem may be read-only');
   }
-  
-  try {
-    const data = await fs.readFile(filePath, 'utf-8');
-    log = JSON.parse(data);
-  } catch {
-    // File doesn't exist
-  }
-  
-  log.leads.push(entry);
-  await fs.writeFile(filePath, JSON.stringify(log, null, 2), 'utf-8');
 }
 
 export async function POST(request: NextRequest) {

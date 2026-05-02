@@ -24,9 +24,14 @@ async function readJSON<T>(filename: string, defaultValue: T): Promise<T> {
 }
 
 async function writeJSON<T>(filename: string, data: T): Promise<void> {
-  await ensureDataDir();
-  const filePath = path.join(DATA_DIR, filename);
-  await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
+  try {
+    await ensureDataDir();
+    const filePath = path.join(DATA_DIR, filename);
+    await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
+  } catch {
+    // Silently fail in serverless environments where filesystem is read-only
+    console.warn(`[data] Could not write to ${filename} - filesystem may be read-only`);
+  }
 }
 
 // NDA Log Operations

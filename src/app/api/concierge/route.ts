@@ -30,26 +30,31 @@ interface ConciergeLog {
 }
 
 async function appendConciergeRequest(entry: ConciergeRequest): Promise<void> {
-  const dataDir = path.join(process.cwd(), 'data');
-  const filePath = path.join(dataDir, 'concierge_requests.json');
-  
-  let log: ConciergeLog = { requests: [] };
-  
   try {
-    await fs.access(dataDir);
+    const dataDir = path.join(process.cwd(), 'data');
+    const filePath = path.join(dataDir, 'concierge_requests.json');
+    
+    let log: ConciergeLog = { requests: [] };
+    
+    try {
+      await fs.access(dataDir);
+    } catch {
+      await fs.mkdir(dataDir, { recursive: true });
+    }
+    
+    try {
+      const data = await fs.readFile(filePath, 'utf-8');
+      log = JSON.parse(data);
+    } catch {
+      // File doesn't exist
+    }
+    
+    log.requests.push(entry);
+    await fs.writeFile(filePath, JSON.stringify(log, null, 2), 'utf-8');
   } catch {
-    await fs.mkdir(dataDir, { recursive: true });
+    // Silently fail in serverless environments where filesystem is read-only
+    console.warn('[concierge] Could not write to concierge_requests.json - filesystem may be read-only');
   }
-  
-  try {
-    const data = await fs.readFile(filePath, 'utf-8');
-    log = JSON.parse(data);
-  } catch {
-    // File doesn't exist
-  }
-  
-  log.requests.push(entry);
-  await fs.writeFile(filePath, JSON.stringify(log, null, 2), 'utf-8');
 }
 
 export async function POST(request: NextRequest) {
