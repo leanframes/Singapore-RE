@@ -5,7 +5,8 @@ import path from 'path';
 import { Resend } from 'resend';
 import { propertyConfig, consultantConfig } from '@/config/property';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Lazy initialization to avoid build-time errors
+const getResend = () => new Resend(process.env.RESEND_API_KEY || '');
 
 const CONCIERGE_TYPES = {
   wealth: 'Wealth Structuring Specialist',
@@ -102,7 +103,7 @@ export async function POST(request: NextRequest) {
                             consultantConfig.email;
 
       try {
-        await resend.emails.send({
+        await getResend().emails.send({
           from: 'Private Property Portal <noreply@resend.dev>',
           to: recipientEmail,
           subject: `[${propertyConfig.ref}] Concierge Request: ${typeName}`,
